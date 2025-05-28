@@ -98,11 +98,13 @@ export const ProjectsSection = () => {
 
         <div className="text-center mt-12">
           <a
-            className="cosmic-button w-fit flex items-center mx-auto gap-2"
+            className="cosmic-button inline-flex items-center justify-center gap-2 px-6 py-3 text-base font-semibold text-white rounded-lg transition-all duration-300"
             target="_blank"
             href="https://github.com/manu6677"
+            aria-label="Visit Manu Abhishek's GitHub profile"
           >
-            Check My Github <ArrowRight size={16} />
+            Check My GitHub
+            <ArrowRight size={16} className="arrow-icon" />
           </a>
         </div>
       </div>
